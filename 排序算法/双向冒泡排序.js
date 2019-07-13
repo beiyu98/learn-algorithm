@@ -1,3 +1,5 @@
+// 普通的冒泡排序在一趟循环中只能找出一个最大值或最小值，双向冒泡则是多一轮循环既找出最大值也找出最小值。
+
 function bubbleSortDoubbleWays(nums) {
   let low = nums;
   let high = nums.length - 1;

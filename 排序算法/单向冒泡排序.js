@@ -1,3 +1,9 @@
+// 通过相邻元素的比较和交换，使得每一趟循环都能找到未有序数组的最大值或最小值。
+
+// 最好： O(n) ，只需要冒泡一次数组就有序了。
+// 最坏： O(n²)
+// 平均： O(n²)
+
 function bubbleSort(nums) {
   for (let i = 0, len = nums.length; i < nums.length; i++) {
     let mark = true;
