@@ -4,21 +4,21 @@
 // 最坏： O(n²)
 // 平均： O(n²)
 
-function bubbleSort(nums) {
-  for (let i = 0, len = nums.length; i < nums.length; i++) {
-    let mark = true;
+function bubbleSort(arr) {
+  for (let i = 0, len = arr.length; i < len; i++) {
+    let flag = true;
     for (let j = 0; j < len - i - 1; j++) {
-      if (nums[j] > nums[j + 1]) {
-        [nums[j], nums[j + 1]] = [nums[j + 1], nums[j]];
-        mark = false;
+      if (arr[j] > arr[j + 1]) {
+        [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
+        flag = false;
       }
     }
-    if (mark) return nums;
+    if (flag) return arr;
   }
-  return nums;
+  return arr;
 }
 const tag = 'test';
 console.time(tag)
 const res = bubbleSort([2, 4, 6, 2, 6, 8, 3, 6]);
-console.log(res);
+console.log(...res);
 console.timeEnd(tag);
