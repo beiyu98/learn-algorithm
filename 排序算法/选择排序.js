@@ -17,7 +17,7 @@ function selectSort(nums) {
 }
 
 const tag = 'test';
-console.time(tag)
+console.time(tag);
 const res = selectSort([2, 4, 6, 2, 6, 8, 3, 6]);
 console.log(res);
 console.timeEnd(tag);
