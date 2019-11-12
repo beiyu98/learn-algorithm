@@ -8,19 +8,19 @@
       "type": "node",
       "request": "launch",
       "name": "冒泡排序",
-      "program": "${workspaceFolder}/冒泡排序.js"
+      "program": "${workspaceFolder}/interview/冒泡排序.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "对象引用",
-      "program": "${workspaceFolder}/对象引用.js"
+      "program": "${workspaceFolder}/interview/对象引用.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "二分查找",
-      "program": "${workspaceFolder}/二分查找.js"
+      "program": "${workspaceFolder}/interview/二分查找.js"
     }
   ]
 }
