@@ -18,7 +18,7 @@ function bubbleSort(arr) {
   return arr;
 }
 const tag = 'test';
-console.time(tag)
-const res = bubbleSort([2, 4, 6, 2, 6, 8, 3, 6]);
-console.log(...res);
+console.time(tag);
+const res = bubbleSort([2, 4, 6, 7, 8, 3, 0]);
+console.log(res);
 console.timeEnd(tag);
