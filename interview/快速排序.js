@@ -5,7 +5,7 @@ function quickSort(array) {
     return array;
   }
   const midIndex = Math.floor(array.length / 2);
-  const mid = array.splice(midIndex, 1)[0];
+  const mid = array[midIndex];
   const left = [];
   const right = [];
   for (let i = 0; i < array.length; i++) {
